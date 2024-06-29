@@ -1,0 +1,42 @@
+  .container {
+    padding: 30px 120px;
+  }
+  
+
+  
+  
+  form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  form label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  form input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  form button:active {
+    color: white;
+    transform: scale(0.9);
+  }
+  
